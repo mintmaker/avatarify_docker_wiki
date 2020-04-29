@@ -31,6 +31,7 @@ sudo rm /lib/modules/$(uname -r)/extra/v4l2loopback.ko
 Find where you downloaded `avatarify` directory and delete it.
 
 ### Remove Miniconda
+#### If Miniconda was installed from a downloaded package:  
 1. Open terminal window
 2. Find `conda` location:  
 ```
@@ -40,6 +41,13 @@ which conda
 ```
 rm -rf /opt/miniconda3
 ``` 
+
+#### If Miniconda was installed using brew:
+1. Open terminal window
+2. Run:
+```
+brew cask uninstall miniconda
+```
 
 If you don't want to remove Miniconda, then just remove `avatarify` environment:
 ```
