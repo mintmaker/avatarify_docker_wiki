@@ -57,6 +57,8 @@ conda env remove --name avatarify
 ### Remove CamTwist  
 Go to Programs and move CamTwist to Trash.
 
+There is a known issue when Mac can't recognize your camera after CamTwist removal. If that's the case, please check `(Your HD) -> Library -> CoreMediaIO -> Plug-Ins -> DAL` and delete `CamTwist.plugin`.
+
 # Windows
 
 ### Remove Avatarify
