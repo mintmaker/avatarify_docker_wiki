@@ -6,7 +6,7 @@ Server deployment tested on Ubuntu 18.04
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-2. Clone `avatarify` and install its dependencies (sudo privelege is required):
+2. Clone `avatarify` and install its dependencies:
 ```bash
 git clone https://github.com/alievk/avatarify.git
 cd avatarify
