@@ -1,4 +1,4 @@
-Tested on Ubuntu 18.04
+Server deployment tested on Ubuntu 18.04
 
 ### Install
 
