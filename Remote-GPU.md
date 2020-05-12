@@ -1,4 +1,6 @@
-### Ubuntu 18.04 server
+### Setup server
+
+#### Linux
 
 This guide will assume the OS is Ubuntu 18.04 and latest NVIDIA drivers installed.
 
@@ -16,10 +18,31 @@ bash scripts/install.sh --no-vcam
 ```
 3. [Download network weights](#download-network-weights) and place `vox-adv-cpk.pth.tar` file in the `avatarify` directory (don't unpack it).
 
+#### Windows
+
+This guide will assume the OS is Windows 10 and latest NVIDIA drivers installed.
+
+1. Install [Miniconda Python 3.7](https://docs.conda.io/en/latest/miniconda.html#windows-installers).
+2. Install [Git](https://git-scm.com/download/win).
+3. Press Windows button and type "miniconda". Run suggested Anaconda Prompt.
+4. Download and install Avatarify (please copy-paste these commands and don't change them):
+```bash
+git clone https://github.com/alievk/avatarify.git
+cd avatarify
+scripts\install_windows.bat
+```
+5. [Download network weights](#download-network-weights) and place `vox-adv-cpk.pth.tar` file in the `avatarify` directory (don't unpack it).
+
 ### Run server
 
+Linux:
 ```
 bash run.sh --is-worker
+```
+
+Windows:
+```
+run_windows.bat
 ```
 
 ### Run client
