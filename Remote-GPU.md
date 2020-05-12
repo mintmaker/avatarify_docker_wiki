@@ -1,6 +1,8 @@
-Server deployment tested on Ubuntu 18.04
+### Ubuntu 18.04 server
 
-### Install
+This guide will assume the OS is Ubuntu 18.04 and latest NVIDIA drivers installed.
+
+See also [provisioning a cloud-based GPU instance](https://github.com/alievk/avatarify/wiki/Provisioning-a-cloud-based-GPU-instance).
 
 1. Download [Miniconda Python 3.7](https://docs.conda.io/en/latest/miniconda.html#linux-installers) and install it:
 ```bash
