@@ -42,7 +42,7 @@ bash run.sh --is-worker
 
 Windows:
 ```
-run_windows.bat
+run_windows.bat --is-worker
 ```
 
 ### Run client
