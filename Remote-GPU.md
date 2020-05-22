@@ -49,6 +49,6 @@ run_windows.bat --is-worker
 
 Clients are supported on all platforms. Use this command to run a client:
 ```
-run_mac.sh --worker-host server_address
+run_mac.sh --is-client --in-addr tcp://server_address:5557 --out-addr tcp://server_address:5558
 ```
 where `server_address` is the IP address or the hostname of the server. Use `run_windows.bat` for Windows and `run.sh` for Linux.
