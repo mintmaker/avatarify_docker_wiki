@@ -55,6 +55,7 @@ Linux (native and with Docker):
 ```
 bash run.sh --is-worker
 ```
+Add the flag `--no-gpus` if you don't have a GPU installed.
 
 Windows:
 ```
